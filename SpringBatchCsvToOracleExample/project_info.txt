@@ -1,0 +1,5 @@
+While developing this project, faced below issues-
+Issue 1:
+java.lang.IllegalStateException: Failed to execute CommandLineRunner Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLException: ORA-01453: SET TRANSACTION must be first statement of transaction
+Solution:
+Add beans for PlatformTransactionManager, JobExplorer, MapJobRepositoryFactoryBean, JobRepository, JobLauncher
