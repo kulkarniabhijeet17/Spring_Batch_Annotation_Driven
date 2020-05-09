@@ -1,0 +1,102 @@
+<record_dump>
+	<record>
+		<countryCode>IND</countryCode>
+		<countryName>INDIA</countryName>
+		<countryIsdCode>+91</countryIsdCode>
+		<regionCode>00001</regionCode>
+		<userCreated>user001</userCreated>
+		<dateCreated>2020/04/01</dateCreated>
+		<stateCode>MH</stateCode>
+		<stateName>Maharashtra</stateName>
+	</record>
+	<record>
+		<countryCode>IND</countryCode>
+		<countryName>INDIA</countryName>
+		<countryIsdCode>+91</countryIsdCode>
+		<regionCode>00001</regionCode>
+		<userCreated>user001</userCreated>
+		<dateCreated>2020/04/01</dateCreated>
+		<stateCode>MP</stateCode>
+		<stateName>Madhya Pradesh</stateName>
+	</record>
+	<record>
+		<countryCode>IND</countryCode>
+		<countryName>INDIA</countryName>
+		<countryIsdCode>+91</countryIsdCode>
+		<regionCode>00001</regionCode>
+		<userCreated>user001</userCreated>
+		<dateCreated>2020/04/01</dateCreated>
+		<stateCode>UP</stateCode>
+		<stateName>Uttar Pradesh</stateName>
+	</record>
+	<record>
+		<countryCode>IND</countryCode>
+		<countryName>INDIA</countryName>
+		<countryIsdCode>+91</countryIsdCode>
+		<regionCode>00001</regionCode>
+		<userCreated>user001</userCreated>
+		<dateCreated>2020/04/01</dateCreated>
+		<stateCode>WB</stateCode>
+		<stateName>West Bengal</stateName>
+	</record>
+	<record>
+		<countryCode>IND</countryCode>
+		<countryName>INDIA</countryName>
+		<countryIsdCode>+91</countryIsdCode>
+		<regionCode>00001</regionCode>
+		<userCreated>user001</userCreated>
+		<dateCreated>2020/04/01</dateCreated>
+		<stateCode>AP</stateCode>
+		<stateName>Andhra Pradesh</stateName>
+	</record>
+	<record>
+		<countryCode>USA</countryCode>
+		<countryName>UNITED STATES</countryName>
+		<countryIsdCode>+1</countryIsdCode>
+		<regionCode>00002</regionCode>
+		<userCreated>user002</userCreated>
+		<dateCreated>2020/04/01</dateCreated>
+		<stateCode>FL</stateCode>
+		<stateName>Florida</stateName>
+	</record>
+	<record>
+		<countryCode>USA</countryCode>
+		<countryName>UNITED STATES</countryName>
+		<countryIsdCode>+1</countryIsdCode>
+		<regionCode>00002</regionCode>
+		<userCreated>user002</userCreated>
+		<dateCreated>2020/04/01</dateCreated>
+		<stateCode>AK</stateCode>
+		<stateName>Alaska</stateName>
+	</record>
+	<record>
+		<countryCode>USA</countryCode>
+		<countryName>UNITED STATES</countryName>
+		<countryIsdCode>+1</countryIsdCode>
+		<regionCode>00002</regionCode>
+		<userCreated>user002</userCreated>
+		<dateCreated>2020/04/01</dateCreated>
+		<stateCode>NY</stateCode>
+		<stateName>New York</stateName>
+	</record>
+	<record>
+		<countryCode>UK</countryCode>
+		<countryName>UNITED KINGDOM</countryName>
+		<countryIsdCode>+44</countryIsdCode>
+		<regionCode>00003</regionCode>
+		<userCreated>user003</userCreated>
+		<dateCreated>2020/04/01</dateCreated>
+		<stateCode></stateCode>
+		<stateName></stateName>
+	</record>
+	<record>
+		<countryCode>AUS</countryCode>
+		<countryName>AUSTRALIA</countryName>
+		<countryIsdCode>+61</countryIsdCode>
+		<regionCode>00004</regionCode>
+		<userCreated>user004</userCreated>
+		<dateCreated>2020/04/01</dateCreated>
+		<stateCode></stateCode>
+		<stateName></stateName>
+	</record>
+</record_dump>

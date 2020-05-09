@@ -1,0 +1,13 @@
+This project uses JAXB API to read XML file.
+
+While developing this project, faced below issues-
+Issue 1:
+org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [SELECT JOB_INSTANCE_ID, JOB_NAME from BATCH_JOB_INSTANCE where JOB_NAME = ? order by JOB_INSTANCE_ID desc]; nested exception is java.sql.SQLException: ORA-00942: table or view does not exist
+Solution:
+Add below line of code in your application.properties file-
+spring.batch.initialize-schema=always
+
+Issue 2:
+java.lang.IllegalStateException: Failed to execute CommandLineRunner Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLException: ORA-01453: SET TRANSACTION must be first statement of transaction
+Solution:
+Add beans for PlatformTransactionManager, JobExplorer, MapJobRepositoryFactoryBean, JobRepository, JobLauncher
