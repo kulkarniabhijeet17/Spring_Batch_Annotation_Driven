@@ -1,0 +1,20 @@
+While developing this project, faced below issues-
+Issue 1:
+java.lang.IllegalStateException: Failed to execute CommandLineRunner Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLException: ORA-01453: SET TRANSACTION must be first statement of transaction
+Solution:
+Add beans for PlatformTransactionManager, JobExplorer, MapJobRepositoryFactoryBean, JobRepository, JobLauncher
+
+Issue 2:
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.batch.item.file.FlatFileItemReader<com.springbatch.model.Record>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=csvFileReader)}
+Solution:
+Register all the beans declared with @Configuration annotation
+
+Issue 3:
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springbatch.processor.CsvRecordProcessor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Solution:
+Add context.scan("com"); in BatchJobLauncher class for java classes declared with @Component annotation.
+
+Issue 4:
+Invocation of destroy method 'close' failed on bean with name 'reader': org.springframework.batch.item.ItemStreamException: Error while closing item reader
+Solution:
+Spring tries to automatically infer a destroyMethod when using Java configuration (but it does not do so when using XML configuration). To disable this automatic inference, use: @Bean(destroyMethod="")
